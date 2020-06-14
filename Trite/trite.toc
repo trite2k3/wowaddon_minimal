@@ -1,0 +1,7 @@
+﻿## Interface: 11302
+## Title: |cFF1efb49Trite|r
+## Author: Trite
+## Notes: Trite, a collection of features from various other addons baked into one
+## Version: 1
+
+trite.lua
