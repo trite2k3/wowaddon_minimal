@@ -1,3 +1,2 @@
-# crotcommander_modded-fork-with-multiple-addons
-# wowaddon_minimal
+# critcommander_modded-fork-with-multiple-addons
 # wowaddon_minimal
