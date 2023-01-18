@@ -138,15 +138,15 @@ local function sellGray()
         return
     end
     for bag=0,4 do
-        for slot=0,GetContainerNumSlots(bag) do
+        for slot=0,C_Container.GetContainerNumSlots(bag) do
             if stop then 
                 return
             end
-            local link = GetContainerItemLink(bag, slot)
+            local link = C_Container.GetContainerItemLink(bag, slot)
             if link and select(3, GetItemInfo(link)) == 0 and not list["b"..bag.."s"..slot] then
                 ChatFrame1:AddMessage("Selling: " .. link)
                 list["b"..bag.."s"..slot] = true
-                UseContainerItem(bag, slot)
+                C_Container.UseContainerItem(bag, slot)
                 C_Timer.After(0.2, sellGray)
                 return
             end
@@ -245,3 +245,4 @@ eventHandler:SetScript("OnEvent", OnEvent)
 -----------------------------
 -- /Init
 -----------------------------
+
