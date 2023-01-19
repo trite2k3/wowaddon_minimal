@@ -2,7 +2,7 @@
 # wowaddon_minimal
 collection of various other addons, optimized into one main loop
 
-Download zipfiles from list and unzip into wow addons directory, if data isnt a zip, scan for links. 
+hide gryphon art and xp bar bg's, autosell, autorepair 
 
 note
 ---
